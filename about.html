@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - My Blog</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; transition: background 0.3s ease, color 0.3s ease; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">My Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item ms-3">
+            <button id="theme-toggle" class="btn btn-light">🌙 Dark Mode</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <main class="container my-5 text-center">
+    <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic" width="200" height="200">
+    <h2 class="mb-3">Prabhu Siddarth</h2>
+    <p class="lead">Problem Solver | Tech Enthusiast 🚀 | IT Student | Aspiring Full-Stack Developer | Learning Spring Boot | Passionate About Building Scalable & User-Friendly Applications</p>
+    
+    <p class="mt-4">
+      I’m passionate about technology, coding, and solving real-world problems.  
+      With hands-on experience in <strong>web development, Raspberry Pi projects, C programming, and astrophysics</strong>,  
+      I enjoy building practical solutions while continuously learning.  
+    </p>
+
+    <p>
+      On LinkedIn, I share my projects, progress, and learning journey.  
+      I also spend time on platforms like LeetCode improving my coding and problem-solving skills.  
+    </p>
+
+    <!-- Contact Section -->
+    <section class="mt-5">
+      <h3 class="mb-4">Get in Touch</h3>
+      <div class="d-flex flex-row flex-wrap align-items-center gap-3 mt-4" style="justify-content: center;">
+        <a href="https://www.linkedin.com/in/prabhu-siddarth-157a00338" target="_blank" class="btn btn-linkedin">
+          <span><i class="fab fa-linkedin"></i> LinkedIn</span>
+        </a>
+        <a href="https://github.com/PRABHUSIDDARTH" target="_blank" class="btn btn-github">
+          <span><i class="fab fa-github"></i> GitHub</span>
+        </a>
+        <a href="https://leetcode.com/pstech" target="_blank" class="btn btn-leetcode">
+          <span><i class="fas fa-code"></i> LeetCode</span>
+        </a>
+        <a href="mailto:prabhusiddarth37@gmail.com" class="btn btn-gmail">
+          <span><i class="fas fa-envelope"></i> Email</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2025 My Personal Blog | Built with ❤️ by Prabhusiddarth</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

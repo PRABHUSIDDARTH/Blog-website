@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "How I Built My First Blog Website",
+    "content": "This was my internship project where I created a responsive personal blog website using HTML, CSS, Bootstrap, and JavaScript. I learned about JSON, template literals, and how to make dynamic pages. It helped me understand frontend workflows better and improved my problem-solving skills.",
+    "author": "Prabhu Siddarth",
+    "date": "2025-10-01",
+    "image": "images/blog1.webp",
+    "file": "files/project-report.pdf",
+    "category": "Web Development",
+    "readTime": "4 min",
+    "likes": 12
+  },
+  {
+    "id": 2,
+    "title": "My Passion for Astrophysics",
+    "content": "I’ve always been fascinated by the stars and the mysteries of the universe. Astrophysics connects coding and curiosity for me—I use data, math, and logic to understand something as massive as the cosmos. This mix of science and technology keeps me motivated.",
+    "author": "Prabhu Siddarth",
+    "date": "2025-10-02",
+    "image": "images/astro.jpg",
+    "file": "",
+    "category": "Science",
+    "readTime": "3 min",
+    "likes": 20
+  },
+  {
+    "id": 3,
+    "title": "Top 3 Things I Learned During My Internship",
+    "content": "1. Time management is key—splitting hours between coding, debugging, and documenting. 2. Clean, simple code always beats complex, messy code. 3. Asking questions and learning from seniors accelerates growth. These lessons will stay with me in all future projects.",
+    "author": "Prabhu Siddarth",
+    "date": "2025-10-03",
+    "image": "images/learning.png",
+    "file": "",
+    "category": "Career",
+    "readTime": "5 min",
+    "likes": 8
+  },
+  {
+    "id": 4,
+    "title": "My Raspberry Pi Projects",
+    "content": "Raspberry Pi opened up my world to hardware + software projects. I’ve built a smoke detection system with an MQ-2 sensor, a helmet detection camera, and even experimented with AI chatbots. These projects taught me how coding interacts with the real world.",
+    "author": "Prabhu Siddarth",
+    "date": "2025-10-04",
+    "image": "images/pi.webp",
+    "file": "",
+    "category": "Projects",
+    "readTime": "6 min",
+    "likes": 15
+  },
+  {
+    "id": 5,
+    "title": "Why I Love Problem Solving",
+    "content": "Coding feels like solving puzzles. Whether it’s fixing a bug, optimizing a loop, or designing a better algorithm, problem-solving pushes me to think deeper and improve every day. It’s not just about code—it’s a mindset that applies to life too.",
+    "author": "Prabhu Siddarth",
+    "date": "2025-10-05",
+    "image": "images/problem.png",
+    "file": "",
+    "category": "Personal",
+    "readTime": "4 min",
+    "likes": 25
+  }
+]
